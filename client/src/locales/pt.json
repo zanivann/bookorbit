@@ -4982,3 +4982,249 @@
     "failedToLoadBook": "Falha ao carregar livro",
     "chapterNumber": "Capítulo {number}",
     "peek": {
+{
+  "peek": {
+    "badge": "Espiando",
+    "startReading": "Começar a ler"
+  },
+  "toast": {
+    "linkedHighlightError": "Não foi possível abrir a posição do destaque vinculado",
+    "resumed": "Retomado em {pct}% - {label}"
+  },
+  "header": {
+    "goBack": "Voltar",
+    "tableOfContents": "Sumário",
+    "toggleBookmark": "Alternar favorito",
+    "cycleFooterMode": "Alternar modo de informações do rodapé",
+    "keyboardShortcutsHint": "Atalhos de teclado (?)",
+    "enterFullscreen": "Entrar em tela cheia",
+    "exitFullscreen": "Sair da tela cheia",
+    "footerMode": {
+      "pageProgress": "Info do rodapé: página + progresso",
+      "sessionTimeLeft": "Info do rodapé: sessão de leitura + tempo restante",
+      "chapterTimeLeft": "Info do rodapé: capítulo + tempo restante do capítulo"
+    }
+  },
+  "footer": {
+    "previousSection": "Seção anterior",
+    "nextSection": "Próxima seção",
+    "goToPlaceholder": "45 ou p123",
+    "jumpToLocation": "Pular para a localização",
+    "jumpTooltip": "Pular para % ou página (ex: 45 ou p123)",
+    "go": "Ir"
+  },
+  "settings": {
+    "title": "Configurações",
+    "ariaLabel": "Configurações do leitor",
+    "tabs": {
+      "appearance": "Aparência",
+      "text": "Texto",
+      "layout": "Layout"
+    },
+    "appearance": {
+      "mode": "Modo",
+      "light": "Claro",
+      "dark": "Escuro",
+      "colorTheme": "Tema de cor"
+    },
+    "text": {
+      "fontSize": "Tamanho da fonte",
+      "fontSizeRange": "Intervalo: 10-32px",
+      "lineHeight": "Altura da linha",
+      "lineHeightRange": "Intervalo: 0.8-3.0",
+      "fontFamily": "Família de fontes",
+      "fontFamilyDescription": "Escolha fontes embutidas ou enviadas para o corpo do texto.",
+      "builtIn": "Embutida",
+      "yourFonts": "Suas fontes"
+    },
+    "layout": {
+      "pageSpreads": "Páginas duplas",
+      "pageSpreadsDescription": "Escolha como este EPUB baseado em imagem emparelha as páginas.",
+      "bookDefault": "Padrão do livro",
+      "singlePage": "Página única",
+      "readingFlow": "Fluxo de leitura",
+      "readingFlowDescription": "Alternar entre paginado e rolagem contínua.",
+      "paginated": "Paginado",
+      "scrolled": "Rolagem",
+      "textColumns": "Colunas de texto",
+      "textColumnsRange": "Intervalo: 1-10",
+      "columnGap": "Espaçamento entre colunas",
+      "columnGapRange": "Intervalo: 0-50%",
+      "maxWidth": "Largura máxima",
+      "maxWidthRange": "Intervalo: 400-1600",
+      "justifyText": "Justificar texto",
+      "justifyTextDescription": "Habilitar alinhamento de parágrafo de largura total.",
+      "hyphenation": "Hifenização",
+      "hyphenationDescription": "Habilitar hifenização automática de quebra de palavra."
+    }
+  },
+  "search": {
+    "placeholder": "Pesquisar no livro (mín. {min} caracteres)...",
+    "searching": "Pesquisando...",
+    "tooShort": "Digite pelo menos {min} caracteres",
+    "noResults": "Nenhum resultado encontrado",
+    "prompt": "Digite para pesquisar",
+    "resultCount": "nenhum resultado | {count} resultado | {count} resultados"
+  },
+  "sidebar": {
+    "tabs": {
+      "chapters": "Capítulos",
+      "bookmarks": "Favoritos",
+      "highlights": "Destaques",
+      "toc": "Sumário",
+      "tocShort": "Sumário",
+      "marksShort": "Marcas",
+      "notesShort": "Notas"
+    },
+    "pin": "Fixar barra lateral",
+    "unpin": "Desafixar barra lateral",
+    "close": "Fechar barra lateral",
+    "noChapters": "Nenhum capítulo encontrado",
+    "noBookmarks": "Nenhum favorito ainda",
+    "noBookmarksMatch": "Nenhum favorito corresponde aos seus filtros",
+    "noHighlights": "Nenhum destaque ainda",
+    "noHighlightsMatch": "Nenhum destaque corresponde aos seus filtros",
+    "searchBookmarks": "Pesquisar favoritos...",
+    "searchHighlights": "Pesquisar destaques...",
+    "bookmarkFallback": "Favorito",
+    "locationUnavailable": "Localização indisponível",
+    "customColor": "Personalizado ({color})",
+    "allColors": "Todas as cores",
+    "allChapters": "Todos os capítulos",
+    "notesOnly": "Apenas notas",
+    "deleteBookmark": "Excluir favorito",
+    "deleteHighlight": "Excluir destaque",
+    "approximatePosition": "Sincronizado do dispositivo; posição exata indisponível, pula para o capítulo",
+    "sort": {
+      "readingOrder": "Ordem de leitura",
+      "newest": "Mais novos primeiro",
+      "oldest": "Mais antigos primeiro"
+    }
+  },
+  "selection": {
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "highlight": "Destaque",
+    "translate": "Traduzir",
+    "define": "Definir",
+    "deleteAnnotation": "Excluir anotação",
+    "apply": "Aplicar"
+  },
+  "note": {
+    "title": "Adicionar nota",
+    "placeholder": "Escreva sua nota..."
+  },
+  "dictionary": {
+    "noDefinition": "Nenhuma definição encontrada",
+    "loadError": "Não foi possível carregar a definição"
+  },
+  "translation": {
+    "original": "Original",
+    "translation": "Tradução",
+    "translating": "Traduzindo...",
+    "noTranslation": "Nenhuma tradução ainda",
+    "viaProvider": "via {provider}",
+    "copyTranslation": "Copiar tradução"
+  },
+  "shortcuts": {
+    "title": "Atalhos de Teclado",
+    "groups": {
+      "panels": "Painéis",
+      "reading": "Leitura",
+      "actions": "Ações"
+    },
+    "toggleToc": "Alternar sumário",
+    "toggleSearch": "Alternar pesquisa",
+    "toggleHelp": "Mostrar/ocultar esta ajuda",
+    "closePanel": "Fechar painel",
+    "prevNextPage": "Página anterior/próxima",
+    "goToStart": "Ir para o início do livro",
+    "goToEnd": "Ir para o final do livro",
+    "toggleBookmark": "Alternar favorito",
+    "toggleFullscreen": "Alternar tela cheia",
+    "cycleFooterMode": "Alternar modo de informações do rodapé"
+  },
+  "cbz": {
+    "tabs": {
+      "view": "Visualização",
+      "reading": "Leitura",
+      "layout": "Layout"
+    },
+    "fitMode": "Modo de ajuste",
+    "background": "Fundo",
+    "scrollMode": "Modo de rolagem",
+    "scrollModeHint": "Use \"Sem espaços\" para webtoons e tiras verticais.",
+    "readingDirection": "Direção de leitura",
+    "pageView": "Visualização de página",
+    "autoFallback": "Fallback automático",
+    "spreadAlignmentLabel": "Alinhamento de página dupla",
+    "spreadAlignmentHint": "O alinhamento de página dupla está indisponível no modo de fallback automático.",
+    "focusTwoPageToggle": "Alternar foco de duas páginas",
+    "forceTwoPage": "Forçar duas páginas",
+    "off": "Desativado",
+    "on": "Ativado",
+    "widePages": "Páginas largas",
+    "resetBookViewSettings": "Redefinir configurações de visualização do livro",
+    "resetConfirm": "Redefinir as configurações de visualização deste livro para os seus padrões globais?",
+    "firstPage": "Primeira página",
+    "lastPage": "Última página",
+    "fit": {
+      "page": "Ajustar à Página",
+      "width": "Ajustar à Largura",
+      "height": "Ajustar à Altura",
+      "actual": "Tamanho Real"
+    },
+    "view": {
+      "single": "Única",
+      "twoPage": "Duas páginas"
+    },
+    "scroll": {
+      "paged": "Paginado",
+      "infinite": "Infinito",
+      "noGaps": "Sem espaços"
+    },
+    "direction": {
+      "ltr": "E para D",
+      "rtl": "D para E"
+    },
+    "spreadAlignment": {
+      "normal": "Normal",
+      "shifted": "Deslocado"
+    },
+    "widePage": {
+      "auto": "Automático",
+      "inSpreads": "Em páginas duplas"
+    },
+    "bg": {
+      "black": "Preto",
+      "gray": "Cinza",
+      "white": "Branco"
+    }
+  },
+  "audiobook": {
+    "untitled": "Sem título",
+    "loading": "Carregando audiobook...",
+    "loadError": "Falha ao carregar audiobook",
+    "noAudioFiles": "Nenhum arquivo de áudio encontrado para este livro.",
+    "speed": "Velocidade",
+    "chapters": "Capítulos",
+    "bookmarks": "Favoritos",
+    "volume": "Volume",
+    "muted": "Sem áudio",
+    "sleep": "Sono",
+    "chapterAbbrev": "Cap.",
+    "sleepTimer": "Temporizador de sono",
+    "minutes": "{count} minutos",
+    "endOfChapter": "Fim do capítulo",
+    "noChaptersAvailable": "Nenhum capítulo disponível",
+    "extend15": "+ 15 minutos",
+    "timeLeft": "({time} restantes)",
+    "playbackSpeed": "Velocidade de reprodução",
+    "noChapters": "Nenhum capítulo disponível.",
+    "noBookmarks": "Nenhum favorito ainda.",
+    "noBookmarksHint": "Toque no ícone de favorito no topo para salvar sua posição atual.",
+    "playerSettings": "Configurações do reprodutor",
+    "skipBack": "Retroceder",
+    "skipForward": "Avançar"
+  }
+}
