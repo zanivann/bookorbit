@@ -5870,7 +5870,7 @@
       "series": "Séries"
     },
     "bulkRename": {
-      "previewToolbar": "Renomear visualização",
+      "previewToolbar": "Pré-visualização de renomeação",
       "renameSettings": "Configurações de renomeação",
       "library": "Biblioteca",
       "selectLibraryPlaceholder": "Selecione uma biblioteca...",
@@ -5996,7 +5996,7 @@
         "delete": "Não foi possível excluir os livros duplicados selecionados."
       },
       "pagination": { "label": "Páginas de grupos de duplicatas", "page": "Página {page} de {total}" }
-    }
+    },
     "entityManager": {
       "unknown": "Desconhecido",
       "bookCount": "nenhum livro | {count} livro | {count} livros",
